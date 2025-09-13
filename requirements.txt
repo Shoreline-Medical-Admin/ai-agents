@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+
+# LangGraph and LangChain
+langgraph
+langchain
+langchain-openai
+
+# AWS SDK
+boto3
+
+# PDF processing
+PyPDF2
+PyMuPDF
+pdfplumber
+pdf2image
+pillow
+
+# Image preprocessing
+opencv-python==4.8.1.78
+numpy>=1.24.0
+
+# OpenAI integration
+openai
+
+# Data processing
+pydantic
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio
+httpx
